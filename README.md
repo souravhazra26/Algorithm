@@ -1,2 +1,2 @@
 # Algorithm
-All Sorting and Searching Algorithms and their Codes In C Language 
+All Sorting and Searching Algorithms and Their Codes In C Language
