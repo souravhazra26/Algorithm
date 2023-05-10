@@ -58,8 +58,6 @@ void swap(int *arr,int lb,int ub)
     arr[lb]=arr[ub];
     arr[ub]=temp;
 }
-
-
 int main()
 {
     int size;
