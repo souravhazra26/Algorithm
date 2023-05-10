@@ -17,10 +17,19 @@ void linear(int *a,int n)
         printf("\n Element Is not Found");
     }
 }
+void input(int *a,int size)
+{
+    printf("\n Enter Elements :: \n");
+    for(int i=0;i<size;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+}
 int main()
 {
-    int a[10]={1,8,3,4,75,66,2,6,10,88},size;
+    int a[10],size;
     printf("\n Enter Array Size ::");
     scanf("%d",&size);
+    input(a,size);
     linear(a,size);
 }
